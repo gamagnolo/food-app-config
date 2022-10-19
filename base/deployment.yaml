@@ -23,7 +23,7 @@ spec:
       containers:
       - name: food-app
         imagePullPolicy: Always
-        image: quay.io/siamaksade/spring-petclinic:latest
+        image: demo-registry-quay-quay-demo.apps.ocp4hub.sandbox963.opentlc.com/pac-demo-pipelines/old-food-app
         livenessProbe:
           failureThreshold: 3
           httpGet:
