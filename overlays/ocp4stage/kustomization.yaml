@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../base/
 images:
-- digest: sha256:220cbbd175e9dbe25172fb9f4918846c8b463efe129c3ea03d57b2b89a9f65dd
+- digest: sha256:5d91f510169abc8c53f1c14013de16884677f3155f8a066210d7c7f3a44923a8
   name: demo-registry-quay-quay-demo.apps.ocp4hub.sandbox963.opentlc.com/pac-demo-pipelines/old-food-app
   newName: demo-registry-quay-quay-demo.apps.ocp4hub.sandbox963.opentlc.com/pac-demo-pipelines/food-app
