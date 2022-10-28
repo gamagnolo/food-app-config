@@ -2,4 +2,4 @@
 
 Configuration Repository for Food App.
 
-Used to deploy thought GitOps using ArgoCD / Openshift GitOps.
+Used to deploy Food App into Dev and Stage environments through GitOps using ArgoCD/Openshift GitOps.
