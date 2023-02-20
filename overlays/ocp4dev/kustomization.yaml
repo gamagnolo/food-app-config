@@ -1,2 +1,8 @@
-bases:
-  - ../../base/
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../base/
+images:
+- digest: sha256:fb83ddd8c732951fe28c3f6c6ddbf73f52fed99490950c3266eb57d866c6e2f2
+  name: demo-registry-quay-quay-demo.apps.cluster-lbl8h.lbl8h.sandbox1206.opentlc.com/pac-demo-pipelines/old-food-app
+  newName: demo-registry-quay-quay-demo.apps.cluster-lbl8h.lbl8h.sandbox1206.opentlc.com/pac-demo-pipelines/food-app
