@@ -23,7 +23,7 @@ spec:
       containers:
       - name: food-app
         imagePullPolicy: Always
-        image: demo-registry-quay-quay-demo.apps.cluster-lbl8h.lbl8h.sandbox1206.opentlc.com/pac-demo-pipelines/old-food-app
+        image: demo-registry-quay-quay-demo.apps.cluster-424sx.424sx.sandbox1124.opentlc.com/pac-demo-pipelines/old-food-app
         livenessProbe:
           failureThreshold: 3
           httpGet:
